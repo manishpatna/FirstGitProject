@@ -12,6 +12,19 @@ public class JavaTraining {
 	
 	public static void findDuplicateCharacter(String str){
 		Map<Character, Integer> map= new HashMap<Character,Integer>();
+		int count=0;
+		char[] ch=str.toCharArray();
+		for(char ch1:ch){
+			if(map.containsKey(ch1)){
+				map.get(ch1);
+				count++;
+				map.put(ch1, count);
+			}
+			
+			
+		}
+		
+		
 		
 		
 	}
