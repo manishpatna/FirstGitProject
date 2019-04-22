@@ -20,7 +20,7 @@ public class JavaTraining {
 				count++;
 				map.put(ch1, count);
 			}
-			
+			else{}
 			
 		}
 		
